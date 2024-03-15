@@ -32,7 +32,7 @@ public class ExcelWriter {
             System.out.println("birthday");
             String birthday = sc.nextLine();
 
-            System.out.println("Married Y/N");
+            System.out.println("Married true/false");
             boolean isMarried = sc.nextBoolean();
             sc.nextLine();
 
