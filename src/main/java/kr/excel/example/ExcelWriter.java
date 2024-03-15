@@ -22,7 +22,7 @@ public class ExcelWriter {
             System.out.println("name");
             String name = sc.nextLine();
             if(name.equals("quit")){
-                System.exit(-1); //quit 를 입력하면 시스템이 바로 끝나게
+               // System.exit(-1); //quit 를 입력하면 시스템이 바로 끝나게
                 break;
             }
             System.out.println("age");
@@ -75,3 +75,4 @@ public class ExcelWriter {
         }
     }
 }
+//더 이상 입력을 원하지 않으면 quit
